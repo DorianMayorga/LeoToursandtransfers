@@ -731,4 +731,186 @@ footer {
     .whatsapp-btn i {
         font-size: 26px;
     }
+    /* ===== RESPONSIVE PARA MÓVIL ===== */
+
+@media (max-width: 768px) {
+    /* Header y Navegación */
+    header {
+        height: 60px;
+        padding: 0;
+    }
+    
+    .header-container {
+        padding: 0 15px;
+    }
+    
+    .logo {
+        gap: 10px;
+    }
+    
+    .logo-icon img {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .logo-main {
+        font-size: 18px;
+    }
+    
+    .logo-sub {
+        font-size: 9px;
+    }
+    
+    /* Menú móvil */
+    .mobile-menu-btn {
+        display: block;
+        z-index: 1001;
+    }
+    
+    .nav-links {
+        position: fixed;
+        top: 60px;
+        left: -100%;
+        width: 100%;
+        height: auto;
+        max-height: calc(100vh - 60px);
+        background: white;
+        flex-direction: column;
+        padding: 0;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        transition: left 0.3s ease;
+        overflow-y: auto;
+    }
+    
+    .nav-links.active {
+        left: 0;
+    }
+    
+    .nav-links li {
+        width: 100%;
+        border-bottom: 1px solid #f0f0f0;
+    }
+    
+    .nav-links a {
+        display: block;
+        padding: 15px 25px;
+        color: #333;
+        font-size: 16px;
+    }
+    
+    .nav-links a:hover {
+        background: #f8f9fa;
+        color: var(--primary);
+    }
+    
+    /* Hero Section */
+    .hero-carousel {
+        height: 280px;
+    }
+    
+    .hero-content {
+        padding: 20px 15px;
+    }
+    
+    .hero-content h2 {
+        font-size: 26px;
+        margin-bottom: 15px;
+        padding-top: 10px;
+    }
+    
+    .hero-content p {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    
+    /* Secciones generales */
+    .container {
+        width: 95%;
+        padding: 0 10px;
+    }
+    
+    .section-title {
+        margin-bottom: 30px;
+    }
+    
+    .section-title h2 {
+        font-size: 28px;
+    }
+    
+    .section-title p {
+        font-size: 14px;
+    }
+    
+    /* Servicios y Tours */
+    .services-grid,
+    .tours-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .service-carousel,
+    .tour-carousel {
+        height: 160px;
+    }
+    
+    /* Botones */
+    .btn {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    
+    /* Footer */
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        text-align: center;
+    }
+    
+    .whatsapp-float {
+        bottom: 15px;
+        right: 15px;
+    }
+    
+    .whatsapp-btn {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .whatsapp-btn i {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Ajustes para pantallas muy pequeñas */
+    .hero-carousel {
+        height: 230px;
+    }
+    
+    .hero-content h2 {
+        font-size: 22px;
+    }
+    
+    .hero-content p {
+        font-size: 14px;
+    }
+    
+    .logo-main {
+        font-size: 16px;
+    }
+    
+    .logo-sub {
+        font-size: 8px;
+    }
+    
+    .section-title h2 {
+        font-size: 24px;
+    }
+    
+    .service-content h3,
+    .tour-body h3 {
+        font-size: 18px;
+    }
+}
+
 }
