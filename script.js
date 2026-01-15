@@ -220,7 +220,88 @@ document.querySelectorAll('.nav-links a').forEach(link => {
     });
 });
 
-// Inicializar carruseles cuando el DOM esté listo
+// ============================================
+// FUNCIÓN CONFIGURACIÓN WHATSAPP - SIMPLE
+// ============================================
+
+function configurarWhatsApp() {
+    // TU NÚMERO DE WHATSAPP - CAMBIA SOLO ESTO
+    const MI_NUMERO = '5219984116078';
+    
+    console.log('🔧 Configurando WhatsApp para LEON TRANSFER...');
+    
+    // 1. CONFIGURAR BOTÓN FLOTANTE (el verde fijo)
+    const btnFlotante = document.querySelector('.whatsapp-float .whatsapp-btn');
+    if (btnFlotante) {
+        // Cambiamos el href a algo simple
+        btnFlotante.href = '#';
+        
+        btnFlotante.addEventListener('click', function(e) {
+            e.preventDefault(); // Evita que el # suba la página
+            
+            // Mensaje para el botón flotante
+            const mensaje = 'Hola LEON TRANSFER, me interesa información sobre sus servicios de traslados y tours';
+            const mensajeCodificado = encodeURIComponent(mensaje);
+            
+            // Crear URL de WhatsApp
+            const urlWhatsApp = `https://wa.me/${MI_NUMERO}?text=${mensajeCodificado}`;
+            
+            // Abrir en nueva pestaña
+            window.open(urlWhatsApp, '_blank', 'noopener,noreferrer');
+            
+            console.log('📱 WhatsApp flotante abierto');
+        });
+        
+        console.log('✅ Botón flotante configurado');
+    }
+    
+    // 2. CONFIGURAR BOTONES DE SERVICIOS/TOURS (los que están en tarjetas)
+    const botonesServicios = document.querySelectorAll('.btn-whatsapp');
+    
+    botonesServicios.forEach(boton => {
+        // Asegurarnos de que no sea el botón flotante
+        if (!boton.closest('.whatsapp-float')) {
+            boton.addEventListener('click', function() {
+                // Obtener el servicio del atributo data-service
+                const servicio = this.getAttribute('data-service');
+                
+                // Crear mensaje personalizado para cada servicio
+                const mensaje = `Hola LEON TRANSFER, me interesa cotizar el servicio: ${servicio}`;
+                const mensajeCodificado = encodeURIComponent(mensaje);
+                
+                // Crear URL de WhatsApp
+                const urlWhatsApp = `https://wa.me/${MI_NUMERO}?text=${mensajeCodificado}`;
+                
+                // Abrir en nueva pestaña
+                window.open(urlWhatsApp, '_blank', 'noopener,noreferrer');
+                
+                console.log(`📱 WhatsApp para servicio: ${servicio}`);
+            });
+        }
+    });
+    
+    console.log(`✅ ${botonesServicios.length} botones de servicios configurados`);
+    
+    // 3. ACTUALIZAR ENLACES DEL FOOTER
+    const enlacesFooter = document.querySelectorAll('footer a[href*="whatsapp"], footer a[href*="wa.me"]');
+    
+    if (enlacesFooter.length > 0) {
+        enlacesFooter.forEach(enlace => {
+            const mensaje = 'Hola LEON TRANSFER, quisiera información sobre sus servicios';
+            const mensajeCodificado = encodeURIComponent(mensaje);
+            enlace.href = `https://wa.me/${MI_NUMERO}?text=${mensajeCodificado}`;
+        });
+        
+        console.log(`✅ ${enlacesFooter.length} enlaces del footer actualizados`);
+    }
+    
+    console.log('✅ Configuración WhatsApp completa');
+}
+
+// ============================================
+// INICIALIZAR TODO CUANDO EL DOM ESTÉ LISTO
+// ============================================
+
 document.addEventListener('DOMContentLoaded', () => {
     // Carrusel principal (hero)
     const heroCarousel = document.querySelector('.hero-carousel .carousel-container');
@@ -257,20 +338,8 @@ document.addEventListener('DOMContentLoaded', () => {
         carruseles[`tour-${index}`] = new Carrusel(carousel, images, 8000);
     });
     
-    // WhatsApp button functionality
-    const whatsappButtons = document.querySelectorAll('.btn-whatsapp');
-    
-    whatsappButtons.forEach(button => {
-        button.addEventListener('click', () => {
-            const service = button.getAttribute('data-service');
-            const phoneNumber = '5219984116078'; // Reemplazar con número real
-            const message = `Hola Cancún Traslados & Tours, me interesa cotizar el servicio: ${service}`;
-            const encodedMessage = encodeURIComponent(message);
-            const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
-            
-            window.open(whatsappURL, '_blank');
-        });
-    });
+    // Configurar WhatsApp
+    configurarWhatsApp();
     
     // Update copyright year
     const currentYear = new Date().getFullYear();
@@ -368,3 +437,21 @@ function toggleAutoPlayTodos(pausar) {
         }
     });
 }
+
+// ============================================
+// VERIFICACIÓN WHATSAPP (OPCIONAL)
+// ============================================
+
+// Esta función puedes eliminarla después de verificar
+function verificarWhatsApp() {
+    setTimeout(() => {
+        console.log('=== VERIFICACIÓN WHATSAPP ===');
+        console.log('1. Haz clic en el botón flotante verde (abajo a la derecha)');
+        console.log('2. Haz clic en cualquier botón "Cotizar por WhatsApp"');
+        console.log('3. Ambos deben abrir WhatsApp con tu número: 5219984116078');
+        console.log('=== FIN VERIFICACIÓN ===');
+    }, 2000);
+}
+
+// Descomenta la siguiente línea para activar la verificación
+// verificarWhatsApp();
