@@ -150,27 +150,20 @@ class Carrusel {
 
 // Imágenes para cada carrusel
 const heroImages = [
-    'https://images.unsplash.com/photo-1519046904884-53103b34b206?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80',
-    'https://images.unsplash.com/photo-1506929562872-bb421503ef21?ixlib=rb-4.0.3&auto=format&fit=crop&w=1968&q=80',
-    'https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80',
+    'https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80', 'imagenes/inicio/inicio2.jpeg', 'imagenes/inicio/inicio3.jpeg','imagenes/inicio/inicio4.jpeg','imagenes/inicio/inicio5.jpeg','imagenes/inicio/inicio6.jpeg','imagenes/inicio/inicio7.jpeg',
     'https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80', 'imagenes/inicio/img1.jpeg'
 ];
 
 const aeropuertoImages = [
-    'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1539635278303-d4002c07eae3?ixlib=rb-4.0.3&auto=format&fit=crop&w-800&q=80'
+    'imagenes/servicios/AeropuertoHotel/Aeropuerto1.jpeg','imagenes/servicios/AeropuertoHotel/Aeropuerto2.jpeg','imagenes/servicios/AeropuertoHotel/Aeropuerto3.jpeg'
 ];
 
 const privadoImages = [
-    'https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1550358864-518f202c02ba?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1549399542-7e3f8b79c341?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    'imagenes/servicios/TrasladosPriv/TrasladoPrivados1.jpeg','imagenes/servicios/TrasladosPriv/TrasladoPrivado2.jpeg','imagenes/servicios/TrasladosPriv/TrasladoPrivado3.jpeg'
 ];
 
 const grupalImages = [
-    'https://images.unsplash.com/photo-1518684079-3c830dcef090?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1519181245277-c07eb2f3d2f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    'imagenes/servicios/Grupal/Grupal1.jpeg','imagenes/servicios/Grupal/Grupal2.jpeg','imagenes/servicios/Grupal/Grupal3.jpeg',
     'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
 ];
 
@@ -189,6 +182,12 @@ const tulumImages = [
 const xcaretImages = [
     'https://images.unsplash.com/photo-1564574662336-88c9f5a6c8d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     'https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    'https://images.unsplash.com/photo-1506929562872-bb421503ef21?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+];
+
+const xelhaImages = [
+    'https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    'https://images.unsplash.com/photo-1519046904884-53103b34b206?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     'https://images.unsplash.com/photo-1506929562872-bb421503ef21?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
 ];
 
@@ -226,7 +225,7 @@ document.querySelectorAll('.nav-links a').forEach(link => {
 
 function configurarWhatsApp() {
     // TU NÚMERO DE WHATSAPP - CAMBIA SOLO ESTO
-    const MI_NUMERO = '5219984116078';
+    const MI_NUMERO = '5219983407784';
     
     console.log('🔧 Configurando WhatsApp para LEON TRANSFER...');
     
