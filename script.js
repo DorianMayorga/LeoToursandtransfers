@@ -293,7 +293,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Carrusel principal (hero)
     const heroCarousel = document.querySelector('.hero-carousel .carousel-container');
     if (heroCarousel) {
-        carruseles.hero = new Carrusel(heroCarousel.closest('.hero-carousel'), heroImages, 6000);
+        carruseles.hero = new Carrusel(heroCarousel.closest('.hero-carousel'), heroImages, 2000);
     }
     
     // Carruseles de servicios
