@@ -150,51 +150,39 @@ class Carrusel {
 
 // Imágenes para cada carrusel
 const heroImages = [
-    'https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80', 'imagenes/inicio/Inicio2.jpeg', 'imagenes/inicio/inicio3.jpeg','imagenes/inicio/inicio4.jpeg','imagenes/inicio/inicio5.jpeg','imagenes/inicio/inicio6.jpeg','imagenes/inicio/inicio7.jpeg',
-    'https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80', 'imagenes/inicio/img1.jpeg'
+    'https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80', 'imagenes/inicio/inicio1.jpeg', 'imagenes/inicio/inicio2.jpeg','imagenes/inicio/inicio3.jpeg','imagenes/inicio/inicio4.jpeg','imagenes/inicio/inicio5.jpeg','imagenes/inicio/inicio6.jpeg','imagenes/inicio/inicio7.jpeg', 'imagenes/inicio/inicio8.jpeg','imagenes/inicio/inicio9.jpeg', 'imagenes/inicio/inicio10.jpeg', 'imagenes/inicio/inicio11.jpeg', 'imagenes/inicio/inicio12.jpeg','imagenes/inicio/inicio13.jpeg', 'imagenes/inicio/inicio14.jpeg', 'imagenes/inicio/inicio15.jpeg', 'imagenes/inicio/inicio16.jpeg', 'imagenes/inicio/inicio17.jpeg', 'imagenes/inicio/inicio18.jpeg', 'imagenes/inicio/inicio19.jpeg', 'imagenes/inicio/inicio20.jpeg'
 ];
 
 const aeropuertoImages = [
-    'imagenes/servicios/AeropuertoHotel/Aeropuerto1.jpeg','imagenes/servicios/AeropuertoHotel/Aeropuerto2.jpeg','imagenes/servicios/AeropuertoHotel/Aeropuerto3.jpeg'
+    'imagenes/servicios/AeropuertoHotel/Aeropuerto1.jpeg','imagenes/servicios/AeropuertoHotel/Aeropuerto2.jpeg','imagenes/servicios/AeropuertoHotel/Aeropuerto3.jpeg', 'imagenes/servicios/AeropuertoHotel/Aeropuerto4.jpeg', 'imagenes/servicios/AeropuertoHotel/Aeropuerto5.jpeg', 'imagenes/servicios/AeropuertoHotel/Aeropuerto6.jpeg', 'imagenes/servicios/AeropuertoHotel/Aeropuerto7.jpeg', 'imagenes/servicios/AeropuertoHotel/Aeropuerto8.jpeg', 'imagenes/servicios/AeropuertoHotel/Aeropuerto9.jpeg', 'imagenes/servicios/AeropuertoHotel/Aeropuerto10.jpeg', 'imagenes/servicios/AeropuertoHotel/Aeropuerto11.jpeg', 'imagenes/servicios/AeropuertoHotel/Aeropuerto12.jpeg', 'imagenes/servicios/AeropuertoHotel/Aeropuerto13.jpeg', 'imagenes/servicios/AeropuertoHotel/Aeropuerto14.jpeg', 'imagenes/servicios/AeropuertoHotel/Aeropuerto15.jpeg'
 ];
 
 const privadoImages = [
-    'imagenes/servicios/TrasladosPriv/TrasladoPrivados1.jpeg','imagenes/servicios/TrasladosPriv/TrasladoPrivado2.jpeg','imagenes/servicios/TrasladosPriv/TrasladoPrivado3.jpeg'
+    'imagenes/servicios/TrasladosPriv/Family1.jpeg', 'imagenes/servicios/TrasladosPriv/Family2.jpeg', 'imagenes/servicios/TrasladosPriv/Family3.jpeg', 'imagenes/servicios/TrasladosPriv/Family4.jpeg', 'imagenes/servicios/TrasladosPriv/Family5.jpeg', 'imagenes/servicios/TrasladosPriv/Family6.jpeg', 'imagenes/servicios/TrasladosPriv/Family7.jpeg', 'imagenes/servicios/TrasladosPriv/Family8.jpeg', 'imagenes/servicios/TrasladosPriv/Family9.jpeg', 'imagenes/servicios/TrasladosPriv/Family10.jpeg', 'imagenes/servicios/TrasladosPriv/Family11.jpeg', 'imagenes/servicios/TrasladosPriv/Family12.jpeg', 'imagenes/servicios/TrasladosPriv/Family13.jpeg', 'imagenes/servicios/TrasladosPriv/Family14.jpeg', 'imagenes/servicios/TrasladosPriv/Family15.jpeg', 'imagenes/servicios/TrasladosPriv/Family16.jpeg', 'imagenes/servicios/TrasladosPriv/Family17.jpeg', 'imagenes/servicios/TrasladosPriv/Family18.jpeg', 'imagenes/servicios/TrasladosPriv/Family19.jpeg', 'imagenes/servicios/TrasladosPriv/Family20.jpeg', 'imagenes/servicios/TrasladosPriv/Family21.jpeg', 'imagenes/servicios/TrasladosPriv/Family22.jpeg', 'imagenes/servicios/TrasladosPriv/Family23.jpeg', 'imagenes/servicios/TrasladosPriv/Family24.jpeg', 'imagenes/servicios/TrasladosPriv/Family25.jpeg', 'imagenes/servicios/TrasladosPriv/Family26.jpeg'
 ];
 
 const grupalImages = [
-    'imagenes/servicios/Grupal/Grupal1.jpeg','imagenes/servicios/Grupal/Grupal2.jpeg','imagenes/servicios/Grupal/Grupal3.jpeg',
-    'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    'imagenes/servicios/Grupal/Grupal1.jpeg', 'imagenes/servicios/Grupal/Grupal2.jpeg', 'imagenes/servicios/Grupal/Grupal3.jpeg', 'imagenes/servicios/Grupal/Grupal4.jpeg', 'imagenes/servicios/Grupal/Grupal5.jpeg', 'imagenes/servicios/Grupal/Grupal6.jpeg', 'imagenes/servicios/Grupal/Grupal7.jpeg', 'imagenes/servicios/Grupal/Grupal8.jpeg', 'imagenes/servicios/Grupal/Grupal9.jpeg', 'imagenes/servicios/Grupal/Grupal10.jpeg', 'imagenes/servicios/Grupal/Grupal11.jpeg', 'imagenes/servicios/Grupal/Grupal12.jpeg', 'imagenes/servicios/Grupal/Grupal13.jpeg', 'imagenes/servicios/Grupal/Grupal14.jpeg', 'imagenes/servicios/Grupal/Grupal15.jpeg', 'imagenes/servicios/Grupal/Grupal16.jpeg', 'imagenes/servicios/Grupal/Grupal17.jpeg', 'imagenes/servicios/Grupal/Grupal18.jpeg', 'imagenes/servicios/Grupal/Grupal19.jpeg', 'imagenes/servicios/Grupal/Grupal20.jpeg', 'imagenes/servicios/Grupal/Grupal21.jpeg', 'imagenes/servicios/Grupal/Grupal22.jpeg', 'imagenes/servicios/Grupal/Grupal23.jpeg', 'imagenes/servicios/Grupal/Grupal24.jpeg', 'imagenes/servicios/Grupal/Grupal25.jpeg', 'imagenes/servicios/Grupal/Grupal26.jpeg', 'imagenes/servicios/Grupal/Grupal27.jpeg'
 ];
 
 const chichenImages = [
-    'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1564501049418-3c27787d01e8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    'imagenes/tours/Chichen/chichen1.jpeg','imagenes/tours/Chichen/chichen2.jpeg','imagenes/tours/Chichen/chichen3.jpeg','imagenes/tours/Chichen/chichen4.jpeg','imagenes/tours/Chichen/chichen5.jpeg','imagenes/tours/Chichen/chichen6.jpeg','imagenes/tours/Chichen/chichen7.jpeg','imagenes/tours/Chichen/chichen8.jpeg','imagenes/tours/Chichen/chichen9.jpeg','imagenes/tours/Chichen/chichen10.jpeg','imagenes/tours/Chichen/chichen11.jpeg','imagenes/tours/Chichen/chichen12.jpeg','imagenes/tours/Chichen/chichen13.jpeg','imagenes/tours/Chichen/chichen14.jpeg','imagenes/tours/Chichen/chichen15.jpeg','imagenes/tours/Chichen/chichen16.jpeg','imagenes/tours/Chichen/chichen17.jpeg','imagenes/tours/Chichen/chichen18.jpeg'
 ];
 
 const tulumImages = [
-    'https://images.unsplash.com/photo-1552465011-b4e30bf7349d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1506929562872-bb421503ef21?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', 'imagenes/tours/Tulum/tulum1.jpeg', 'imagenes/tours/Tulum/tulum2.jpeg', 'imagenes/tours/Tulum/tulum3.jpeg', 'imagenes/tours/Tulum/tulum4.jpeg', 'imagenes/tours/Tulum/tulum5.jpeg'
 ];
 
 const xcaretImages = [
-    'https://images.unsplash.com/photo-1564574662336-88c9f5a6c8d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1506929562872-bb421503ef21?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    'https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', 'imagenes/tours/xcaret/xcaret1.jpeg', 'imagenes/tours/xcaret/xcaret2.jpeg', 'imagenes/tours/xcaret/xcaret3.jpeg', 'imagenes/tours/xcaret/xcaret4.jpeg', 'imagenes/tours/xcaret/xcaret5.jpeg', 'imagenes/tours/xcaret/xcaret6.jpeg', 'imagenes/tours/xcaret/xcaret7.jpeg', 'imagenes/tours/xcaret/xcaret8.jpeg'
 ];
 
 const xelhaImages = [
-    'https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1519046904884-53103b34b206?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1506929562872-bb421503ef21?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    'imagenes/tours/XEL-HA/XEL-HA1.jpeg', 'imagenes/tours/XEL-HA/XEL-HA2.jpeg', 'imagenes/tours/XEL-HA/XEL-HA3.jpeg', 'imagenes/tours/XEL-HA/XEL-HA4.jpeg', 'imagenes/tours/XEL-HA/XEL-HA5.jpeg', 'imagenes/tours/XEL-HA/XEL-HA6.jpeg', 'imagenes/tours/XEL-HA/XEL-HA7.jpeg', 'imagenes/tours/XEL-HA/XEL-HA8.jpeg', 'imagenes/tours/XEL-HA/XEL-HA9.jpeg', 'imagenes/tours/XEL-HA/XEL-HA10.jpeg', 'imagenes/tours/XEL-HA/XEL-HA11.jpeg', 'imagenes/tours/XEL-HA/XEL-HA12.jpeg', 'imagenes/tours/XEL-HA/XEL-HA13.jpeg', 'imagenes/tours/XEL-HA/XEL-HA14.jpeg', 'imagenes/tours/XEL-HA/XEL-HA15.jpeg', 'imagenes/tours/XEL-HA/XEL-HA16.jpeg', 'imagenes/tours/XEL-HA/XEL-HA17.jpeg', 'imagenes/tours/XEL-HA/XEL-HA18.jpeg', 'imagenes/tours/XEL-HA/XEL-HA19.jpeg', 'imagenes/tours/XEL-HA/XEL-HA20.jpeg'
 ];
 
 const islaImages = [
-    'https://images.unsplash.com/photo-1526392399-b8c4d6c8d6b8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1519046904884-53103b34b206?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1518684079-3c830dcef090?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    'imagenes/tours/isla mujeres/isla1.jpeg', 'imagenes/tours/isla mujeres/isla2.jpeg', 'imagenes/tours/isla mujeres/isla3.jpeg', 'imagenes/tours/isla mujeres/isla4.jpeg', 'imagenes/tours/isla mujeres/isla5.jpeg', 'imagenes/tours/isla mujeres/isla6.jpeg', 'imagenes/tours/isla mujeres/isla7.jpeg', 'imagenes/tours/isla mujeres/isla8.jpeg', 'imagenes/tours/isla mujeres/isla9.jpeg', 'imagenes/tours/isla mujeres/isla10.jpeg', 'imagenes/tours/isla mujeres/isla11.jpeg', 'imagenes/tours/isla mujeres/isla12.jpeg', 'imagenes/tours/isla mujeres/isla13.jpeg', 'imagenes/tours/isla mujeres/isla14.jpeg', 'imagenes/tours/isla mujeres/isla15.jpeg'
 ];
 
 // Objeto para almacenar las instancias de los carruseles
