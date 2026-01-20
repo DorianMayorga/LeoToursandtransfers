@@ -150,7 +150,7 @@ class Carrusel {
 
 // Imágenes para cada carrusel
 const heroImages = [
-    'https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80', 'imagenes/inicio/inicio1.jpeg', 'imagenes/inicio/inicio2.jpeg','imagenes/inicio/inicio3.jpeg','imagenes/inicio/inicio4.jpeg','imagenes/inicio/inicio5.jpeg','imagenes/inicio/inicio6.jpeg','imagenes/inicio/inicio7.jpeg', 'imagenes/inicio/inicio8.jpeg','imagenes/inicio/inicio9.jpeg', 'imagenes/inicio/inicio10.jpeg', 'imagenes/inicio/inicio11.jpeg', 'imagenes/inicio/inicio12.jpeg','imagenes/inicio/inicio13.jpeg', 'imagenes/inicio/inicio14.jpeg', 'imagenes/inicio/inicio15.jpeg', 'imagenes/inicio/inicio16.jpeg', 'imagenes/inicio/inicio17.jpeg', 'imagenes/inicio/inicio18.jpeg', 'imagenes/inicio/inicio19.jpeg', 'imagenes/inicio/inicio20.jpeg'
+    'https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80', 'imagenes/inicio/inicio1.jpeg', 'imagenes/inicio/inicio.jpeg','imagenes/inicio/inicio3.jpeg','imagenes/inicio/inicio4.jpeg','imagenes/inicio/inicio5.jpeg','imagenes/inicio/inicio6.jpeg','imagenes/inicio/inicio7.jpeg', 'imagenes/inicio/inicio8.jpeg','imagenes/inicio/inicio9.jpeg', 'imagenes/inicio/inicio10.jpeg', 'imagenes/inicio/inicio11.jpeg', 'imagenes/inicio/inicio12.jpeg','imagenes/inicio/inicio13.jpeg', 'imagenes/inicio/inicio14.jpeg', 'imagenes/inicio/inicio15.jpeg', 'imagenes/inicio/inicio16.jpeg', 'imagenes/inicio/inicio17.jpeg', 'imagenes/inicio/inicio18.jpeg', 'imagenes/inicio/inicio19.jpeg', 'imagenes/inicio/inicio20.jpeg'
 ];
 
 const aeropuertoImages = [
