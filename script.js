@@ -293,7 +293,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Carrusel principal (hero)
     const heroCarousel = document.querySelector('.hero-carousel .carousel-container');
     if (heroCarousel) {
-        carruseles.hero = new Carrusel(heroCarousel.closest('.hero-carousel'), heroImages, 2000);
+        carruseles.hero = new Carrusel(heroCarousel.closest('.hero-carousel'), heroImages, 5000);
     }
     
     // Carruseles de servicios
@@ -307,7 +307,7 @@ document.addEventListener('DOMContentLoaded', () => {
             default: images = aeropuertoImages;
         }
         
-        carruseles[`service-${index}`] = new Carrusel(carousel, images, 7000);
+        carruseles[`service-${index}`] = new Carrusel(carousel, images, 6000);
     });
     
     // Carruseles de tours
@@ -323,7 +323,7 @@ document.addEventListener('DOMContentLoaded', () => {
             default: images = chichenImages;
         }
         
-        carruseles[`tour-${index}`] = new Carrusel(carousel, images, 8000);
+        carruseles[`tour-${index}`] = new Carrusel(carousel, images, 6000);
     });
     
     // Configurar WhatsApp
