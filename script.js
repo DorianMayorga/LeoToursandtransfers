@@ -293,7 +293,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Carrusel principal (hero)
     const heroCarousel = document.querySelector('.hero-carousel .carousel-container');
     if (heroCarousel) {
-        carruseles.hero = new Carrusel(heroCarousel.closest('.hero-carousel'), heroImages, 5000);
+        carruseles.hero = new Carrusel(heroCarousel.closest('.hero-carousel'), heroImages, 4000);
     }
     
     // Carruseles de servicios
@@ -307,7 +307,7 @@ document.addEventListener('DOMContentLoaded', () => {
             default: images = aeropuertoImages;
         }
         
-        carruseles[`service-${index}`] = new Carrusel(carousel, images, 6000);
+        carruseles[`service-${index}`] = new Carrusel(carousel, images, 5000);
     });
     
     // Carruseles de tours
